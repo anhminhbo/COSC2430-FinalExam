@@ -1,0 +1,18 @@
+tr:nth-child(2n) {
+    background-color: red;
+}
+
+tr:nth-child(2n+1) {
+    background-color: green;
+}
+ 
+a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 999px) {
+    #leftLink {
+        display: block;
+    }
+}
